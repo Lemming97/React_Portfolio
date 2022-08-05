@@ -1,4 +1,21 @@
+/*Custom Style sheet designed by Lindsey Martin*/
+* {
+  margin: 555;
+  padding: 555;
+  box-sizing: border-box;
+}
+
+:root {
+  /*main colors */
+  --primary-color: #0E5259;
+  --secondary-color: #75BFB2;
+  --tertiary-color: #D5F2EA;
+}
+
 body {
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #D5F2EA;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -124,3 +141,84 @@ header nav ul li a:hover {
 }
 
 /* hero-cta end */
+
+
+/*Work section styling */
+.intro p {
+  line-height: 1.7;
+  color: #D5F2EA;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.intro-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.intro-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.intro-img img {
+  max-width: 100%;
+}
+
+.intro-text {
+  flex: 12;
+}
+
+.intro-text p {
+  color: #328C83;
+  font-size: 18px;
+}
+
+/*end intro*/
+
+
+/* start styles to <footer> */
+footer {
+  background: #D5F2EA;
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer h2 {
+
+  color: #75BFB2;
+  font-size: 15px;
+  margin: 0;
+}
+
+footer p {
+  color: #75BFB2;
+  font-size: 15px;
+  margin: 0;
+  text-align: right;
+
+}
+
+footer div {
+
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #75BFB2;
+}
+
+footer a:hover {
+  color: #328C83;
+  transition: .5s ease;
+}
+
+
+/* end styles to <footer> */
