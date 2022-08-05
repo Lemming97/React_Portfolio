@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Header from '../src/components/Header';
 import About from '../src/components/About';
-import './App.css';
 
 function App() {
   const [currentTab, handleTabChange] = useState("about");
