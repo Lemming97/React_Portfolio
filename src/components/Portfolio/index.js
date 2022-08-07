@@ -1,6 +1,8 @@
 import React from "react";
 import homeBrewImage from "../../assets/small/HomeBrew.png";
 import summerPunchImage from "../../assets/small/Summer_Punch.png";
+import weatherDashImage from "../../assets/small/Weather_Dash.png";
+import noteTakerImage from "../../assets/small/NoteTaker.png";
 
 function Portfolio() {
   return (
@@ -13,18 +15,21 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://lemming97.github.io/02-Challenge-Horiseon/">
+              <a href="https://nameless-mountain-77177.herokuapp.com/">
+                {" "}
                 <img
-                  src="../Advanced-CSS-Challenge-1/Assets/images/Horiseon.png"
-                  alt="image of Horiseon's hero image"
+                  src={noteTakerImage}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Note_Taker"
                 />
               </a>
             </div>
             <div className="job-text">
-              <h4>Horiseon</h4>
+              <h4>Note Taker</h4>
               <p>
-                A codebase that follows accessibility standards in order for the
-                site to be optimized for search engines.
+                An application that provides the user the ability to add new
+                notes, and to delete notes.
               </p>
             </div>
           </div>
@@ -33,16 +38,24 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://lemming97.github.io/Run_Buddy/">
+              <a href="https://lemming97.github.io/Weather_Dashboard/">
+                {" "}
                 <img
-                  src="../Advanced-CSS-Challenge-1/Assets/images/Run_Buddy.png"
-                  alt="image of Run Buddy's hero image"
+                  src={weatherDashImage}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Weather_Dashboard"
                 />
               </a>
             </div>
             <div className="job-text">
-              <h4>Run Buddy</h4>
-              <p>A website that offers fitness training services.</p>
+              <h4>Weather Dashboard</h4>
+              <p>
+                A website that allows the user see the weather outlook for
+                multiple cities. The user can enter a city and see a 5-Day
+                Forecast. The user can see the temperature, humidity levels,
+                wind speed as well as the UV index.{" "}
+              </p>
             </div>
           </div>
         </div>
