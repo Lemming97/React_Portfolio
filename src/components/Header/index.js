@@ -10,11 +10,7 @@ function Header(props) {
       <section>
         <header className="flex-row px-1">
           <div>
-            <h1>
-              <a data-testid="link" href="/">
-                Lindsey Martin's Portfolio
-              </a>
-            </h1>
+            <h1>Lindsey Martin's Portfolio</h1>
           </div>
           <div>
             <Nav
