@@ -59,6 +59,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Screenshots 
 
 ## Link 
+<a href="https://lemming97.github.io/React_Portfolio/">Click Here</a>
 
 ## Usage 
 
