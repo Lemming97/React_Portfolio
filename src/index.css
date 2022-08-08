@@ -429,14 +429,14 @@ footer p {
   color: #75BFB2;
   font-size: 15px;
   margin: 0;
-  text-align: right;
+  text-align: center;
 
 }
 
 footer div {
 
   line-height: 1.5;
-  text-align: right;
+  /* text-align: right; */
 }
 
 footer a {
@@ -446,6 +446,18 @@ footer a {
 footer a:hover {
   color: #328C83;
   transition: .5s ease;
+}
+
+.logo {
+  cursor: pointer;
+  list-style: none;
+  font-size: 40px;
+  color: #0E5259;
+  display: inline-block;
+}
+
+.logo:hover {
+  opacity: 0.5;
 }
 
 /* end styles to <footer> */
