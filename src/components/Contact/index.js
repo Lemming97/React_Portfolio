@@ -51,40 +51,79 @@ function Contact() {
   };
 
   return (
-    <div>
-      <p>Hello {userName}</p>
-      <form className="form">
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-        />
-        <input
-          value={userName}
-          name="userName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="username"
-        />
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="message"
-          placeholder="message"
-        />
-        <button type="button" onClick={handleFormSubmit}>
-          Submit
-        </button>
-      </form>
-      {errorMessage && (
+    <section id="reach-out" className="contact">
+      <div className="flex-row">
+        <h2 className="section-title secondary-border">Reach Out</h2>
+      </div>
+
+      <div className="contact-info">
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <h3>Hello {userName}</h3>
+          <p>Any questions or concerns with your order?</p>
+          <p>Any questions or concerns with your order?</p>
+          <address>
+            55 Main Street <br />
+            Some Town, Ca <br />
+            12345 <br />
+            P: <a href="tel:555.786.2839">415.555.5555</a>
+            <br />
+            E:{" "}
+            <a href="mailto://info@TwilightRistorante.com">
+              info@TwilightRistorante.com
+            </a>
+          </address>
+          <p>
+            <strong>Regular Hours</strong>
+          </p>
         </div>
-      )}
-    </div>
+
+        {/* contact form section  */}
+        <div className="contact-form">
+          <form className="form">
+            {/* Name */}
+            <label for="contact-name">Your Name</label>
+            <input
+              value={userName}
+              name="userName"
+              onChange={handleInputChange}
+              type="text"
+              id="contact-name"
+              placeholder="Your Name"
+            />
+
+            {/* Email */}
+            <label for="contact-name">Your Email</label>
+            <input
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="email"
+              id="contact-name"
+              placeholder="Your Email"
+            />
+
+            {/* Message */}
+            <label for="contact-message">Message</label>
+            <textarea
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+              type="message"
+              id="contact-message"
+              placeholder="Your Message"
+            />
+            <button type="submit" onClick={handleFormSubmit}>
+              Submit
+            </button>
+          </form>
+        </div>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+      </div>
+    </section>
   );
 }
 
