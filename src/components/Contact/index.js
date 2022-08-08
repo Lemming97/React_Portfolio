@@ -79,6 +79,7 @@ function Contact() {
 
         {/* contact form section  */}
         <div className="contact-form">
+          <h3>Contact Me</h3>
           <form className="form">
             {/* Name */}
             <label for="contact-name">Your Name</label>
@@ -92,13 +93,13 @@ function Contact() {
             />
 
             {/* Email */}
-            <label for="contact-name">Your Email</label>
+            <label for="contact-email">Your Email</label>
             <input
               value={email}
               name="email"
               onChange={handleInputChange}
               type="email"
-              id="contact-name"
+              id="contact-email"
               placeholder="Your Email"
             />
 

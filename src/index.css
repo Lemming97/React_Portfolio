@@ -194,12 +194,17 @@ header nav ul li a:hover {
 
 
 /* REACH OUT STYLES START */
-.reach-out {
+#reach-out {
+  /* margin-top: 5px; */
   background: #75BFB2;
 }
 
-.reach-out h2 {
+#reach-out h2 {
   color: #0E5259;
+}
+
+.contact h2 {
+  color: #F2E3D5;
 }
 
 .contact-info {
@@ -246,7 +251,7 @@ header nav ul li a:hover {
   color: #024e76;
   text-align: center;
   padding: 15px 0;
-  font-size: 16px;
+  font-size: 25px;
   border-radius: 10px;
 
 
@@ -461,6 +466,9 @@ footer a:hover {
   border-color: #D5F2EA;
 }
 
+label {
+  font-size: 25px;
+}
 
 /*Extra styling*/
 .flex-row {
