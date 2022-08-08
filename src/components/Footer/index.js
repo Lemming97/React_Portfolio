@@ -1,7 +1,7 @@
 import React from "react";
 
 function Footer() {
-  <div>
+  return (
     <footer>
       <h2>Made by Lindsey Martin©</h2>
       <p>
@@ -17,7 +17,7 @@ function Footer() {
         </a>
       </p>
     </footer>
-  </div>;
+  );
 }
 
 export default Footer;

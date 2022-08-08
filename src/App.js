@@ -28,22 +28,16 @@ function App() {
   };
 
   return (
-    <div>
-      <div>
-        <Header
-          currentTab={currentTab}
-          handleTabChange={handleTabChange}
-        ></Header>
-      </div>
-      <div>
-        <main>{renderTab()}</main>
-      </div>
-      <div>
-        <footer>
-          <Footer></Footer>
-        </footer>
-      </div>
-    </div>
+    <>
+      <Header
+        currentTab={currentTab}
+        handleTabChange={handleTabChange}
+      ></Header>
+
+      <main>{renderTab()}</main>
+
+      <Footer></Footer>
+    </>
   );
 }
 
