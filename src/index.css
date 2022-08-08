@@ -517,9 +517,9 @@ footer a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  section {
+  /* section {
     padding: 30px 15px;
-  }
+  } */
 
   .job h3 {
     flex: 1 100%;
