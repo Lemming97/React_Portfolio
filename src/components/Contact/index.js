@@ -113,7 +113,7 @@ function Contact() {
               id="contact-message"
               placeholder="Your Message"
             />
-            <button type="submit" onClick={handleFormSubmit}>
+            <button type="button" onClick={handleFormSubmit}>
               Submit
             </button>
           </form>
