@@ -408,12 +408,13 @@ header nav ul li a:hover {
 footer {
   background: #D5F2EA;
   font-weight: bold;
-  margin-top: 5px;
-  justify-content: center;
-  line-height: 1.5;
   width: 100%;
-  padding: 40px 35px;
+  height: 100px;
+  position: sticky;
+  bottom: 0;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 
 
 }
