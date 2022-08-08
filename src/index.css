@@ -93,8 +93,8 @@ header nav ul {
 
 header nav ul li a {
   padding: 10px 15px;
-  font-weight: lighter;
-  font-size: 1.55vw;
+  font-weight: normal;
+  font-size: 1.60vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   -webkit-transition: all 1s ease;
@@ -407,11 +407,15 @@ header nav ul li a:hover {
 /* start styles to <footer> */
 footer {
   background: #D5F2EA;
+  font-weight: bold;
+  margin-top: 5px;
+  justify-content: center;
+  line-height: 1.5;
   width: 100%;
   padding: 40px 35px;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+
+
 }
 
 footer h2 {
