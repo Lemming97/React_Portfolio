@@ -1,6 +1,9 @@
 import React from "react";
 
 function Contact() {
+  //need to include validateEmail from helpers function
+
+  //rerender the page
   return (
     <div>
       <section id="contact-me" className="reach-out">
@@ -10,6 +13,11 @@ function Contact() {
         <div className="contact-info">
           <div>
             <h3>Feel free to contact me via the following pathways:</h3>
+            <p>
+              Any questions or concerns with your order?
+              <br />
+              Let us know and we'll be happy to talk to you!
+            </p>
             <address>
               <ul id="contact-list">
                 <p>
@@ -36,6 +44,19 @@ function Contact() {
               </ul>
             </address>
           </div>
+        </div>
+
+        <div className="contact-form">
+          <h3>Contact Us</h3>
+          <form>
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" placeholder="Your Name" />
+
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" placeholder="Message"></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
         </div>
       </section>
     </div>

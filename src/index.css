@@ -199,6 +199,51 @@ header nav ul li a:hover {
   flex-wrap: wrap;
 }
 
+.contact-form {
+  padding-right: 10%;
+}
+
+.contact-form button:hover {
+  color: #F2E3D5;
+  background: #39a6b2;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #F2E3D5;
+  color: #024e76;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  border-radius: 10px;
+
+
+
+}
+
 .contact-info>* {
   flex: 1;
   margin: 15px;
