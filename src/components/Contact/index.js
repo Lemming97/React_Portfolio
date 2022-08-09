@@ -59,21 +59,18 @@ function Contact() {
       <div className="contact-info">
         <div>
           <h3>Hello {userName}</h3>
-          <p>Any questions or concerns with your order?</p>
-          <p>Any questions or concerns with your order?</p>
+          <p>Want to get into contact?</p>
           <address>
-            55 Main Street <br />
-            Some Town, Ca <br />
-            12345 <br />
-            P: <a href="tel:555.786.2839">415.555.5555</a>
+            San Francisco, CA <br />
+            P: <a href="tel:951.310.5642">951.310.5642</a>
             <br />
             E:{" "}
-            <a href="mailto://info@TwilightRistorante.com">
-              info@TwilightRistorante.com
+            <a href="mailto://martinlindsey87@yahoo.com">
+              martinlindsey87@yahoo.com
             </a>
           </address>
           <p>
-            <strong>Regular Hours</strong>
+            <strong>I'd love to hear your feedback!</strong>
           </p>
         </div>
 
