@@ -1,18 +1,24 @@
 # React_Portfolio
 20. React Challenge: React Portfolio
 
+
 ## Description 
 
 Being a web developer means being part of a community. We all need a place to share our projects not only if we're applying for jobs or working as a freelancer but also so that we can share our work with fellow developers and collaborate on future projects. 
 
 
 ## Table of Contents
+* [License](#license)
 * [Installation](#installation)
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Screenshots](#screenshots)
 * [Link](#link)
 * [Usage](#usage)
+
+## License 
+This project is license under MIT ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+
 
 ## Installation 
 
