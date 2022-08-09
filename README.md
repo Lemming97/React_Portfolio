@@ -58,6 +58,12 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Screenshots 
 
+<img width="1089" alt="Screenshot1" src="https://user-images.githubusercontent.com/49573760/183587239-ec641354-bfa7-4d9d-91e0-cc29e885b078.png">
+
+<img width="1578" alt="Screenshot2" src="https://user-images.githubusercontent.com/49573760/183587258-22c4f615-29de-4d43-9c16-58284e39fc02.png">
+
+
+
 ## Link 
 <a href="https://lemming97.github.io/React_Portfolio/">Click Here</a>
 
