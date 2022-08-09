@@ -1,22 +1,89 @@
 import React from "react";
+import myResume from "../../assets/files/Lindsey_Martin_Resume_2022.pdf";
+import { BsCloudDownload } from "react-icons/bs";
+import { MdFoundation } from "react-icons/md";
+import { GrTechnology } from "react-icons/gr";
+import { GrDocumentPerformance } from "react-icons/gr";
 
 function Resume() {
   return (
     <div>
-      <h1>Resume Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <section id="welcome-section" className="download-intro">
+        <div className="flex-row">
+          <h2 className="section-title primary-border">My Resume</h2>
+        </div>
+        <div className="flex-row">
+          <div className="download-info">
+            <div className="download-text">
+              <a href={myResume} className="download-logo" download>
+                <BsCloudDownload />
+              </a>
+              <p>
+                Please feel free to check out my list of Developer
+                Proficiencies!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* // This is the resume language */}
+      <section id="home-page-body" className="resume-body">
+        <div className="article column1">
+          <p className="column-title">Font-End Tech</p>
+          <p className="column-text">
+            <ul>
+              <li className="logo">
+                <MdFoundation />
+              </li>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>APIs</li>
+              <li>Bootstrap</li>
+              <li>GIT</li>
+            </ul>
+          </p>
+        </div>
+
+        <div className="article column2">
+          {/* <p><img src="./assets/images/streamline-icon-ai-robot-waiter@48x48.PNG"></p> */}
+
+          <p className="column-title">Back-End Tech</p>
+          <p className="column-text">
+            <ul>
+              <li className="logo">
+                <GrTechnology />
+              </li>
+              <li>Node.Js</li>
+              <li>Jest</li>
+              <li>Express.js</li>
+              <li>MySQL</li>
+              <li>Sequelize</li>
+              <li>Object-Relational Mapping(ORM)</li>
+              <li>Model-View-Controller (MVC)</li>
+            </ul>
+          </p>
+        </div>
+        <div className="article column3">
+          {/* <p><img src="./assets/images/streamline-icon-soft-drinks-glass-ice@48x48.PNG"></p> */}
+          <p className="column-title">Performance Tech</p>
+          <p className="column-text">
+            <ul>
+              <li className="logo">
+                <GrDocumentPerformance />
+              </li>
+              <li>NoSQL</li>
+              <li>Progressive Web Applications (PWA)</li>
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+              <li>GraphQL</li>
+              <li>React</li>
+              <li>MERN</li>
+              <li>State</li>
+            </ul>
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
