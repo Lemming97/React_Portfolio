@@ -1,7 +1,9 @@
 import React from "react";
 import myResume from "../../assets/files/Lindsey_Martin_Resume_2022.pdf";
 import { BsCloudDownload } from "react-icons/bs";
-// import { Col, Row } from "react-bootstrap";
+import { MdFoundation } from "react-icons/md";
+import { GrTechnology } from "react-icons/gr";
+import { GrDocumentPerformance } from "react-icons/gr";
 
 function Resume() {
   return (
@@ -17,8 +19,8 @@ function Resume() {
                 <BsCloudDownload />
               </a>
               <p>
-                Please take a minute to review my list of developer
-                proficiencies
+                Please feel free to check out my list of Developer
+                Proficiencies!
               </p>
             </div>
           </div>
@@ -27,33 +29,58 @@ function Resume() {
       {/* // This is the resume language */}
       <section id="home-page-body" className="resume-body">
         <div className="article column1">
-          {/* <p><img src="./assets/images/streamline-icon-food-delivery-service-ordering@48x48.PNG"></p> */}
-          <p className="column-title">Delivery</p>
+          <p className="column-title">Font-End Tech</p>
           <p className="column-text">
-            You have two options when ordering online. You can order directly
-            from <a href="menu.html">our online menu </a>and pick up your order
-            or you can use Postmates to have your order delivered (Postmates
-            delivery fee extra).
+            <ul>
+              <li className="logo">
+                <MdFoundation />
+              </li>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>APIs</li>
+              <li>Bootstrap</li>
+              <li>GIT</li>
+            </ul>
           </p>
         </div>
 
         <div className="article column2">
           {/* <p><img src="./assets/images/streamline-icon-ai-robot-waiter@48x48.PNG"></p> */}
 
-          <p className="column-title">Catering</p>
+          <p className="column-title">Back-End Tech</p>
           <p className="column-text">
-            We cater for big and small events and everything in between. You
-            have the option of picking up your order, having it delivered or we
-            can provide full service catering for your special occasion.
+            <ul>
+              <li className="logo">
+                <GrTechnology />
+              </li>
+              <li>Node.Js</li>
+              <li>Jest</li>
+              <li>Express.js</li>
+              <li>MySQL</li>
+              <li>Sequelize</li>
+              <li>Object-Relational Mapping(ORM)</li>
+              <li>Model-View-Controller (MVC)</li>
+            </ul>
           </p>
         </div>
         <div className="article column3">
           {/* <p><img src="./assets/images/streamline-icon-soft-drinks-glass-ice@48x48.PNG"></p> */}
-          <p className="column-title">Sunday Brunch</p>
+          <p className="column-title">Performance Tech</p>
           <p className="column-text">
-            Don't miss a game this season by joining us for our NFL Sunday
-            Brunch! Game Day Brunch Calendar with food and drink specials will
-            be available during the entire NFL football season!
+            <ul>
+              <li className="logo">
+                <GrDocumentPerformance />
+              </li>
+              <li>NoSQL</li>
+              <li>Progressive Web Applications (PWA)</li>
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+              <li>GraphQL</li>
+              <li>React</li>
+              <li>MERN</li>
+              <li>State</li>
+            </ul>
           </p>
         </div>
       </section>

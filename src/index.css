@@ -512,6 +512,11 @@ header nav ul li a:hover {
   font-size: 20px;
   padding: 5px;
 
+
+}
+
+.column-text ul li {
+  list-style: none;
 }
 
 
@@ -584,7 +589,7 @@ footer a:hover {
 /* end styles to <footer> */
 
 
-/* extra H2 titles stylings */
+/* extra titles stylings */
 .section-title {
   font-size: 48px;
   color: #75BFB2;
