@@ -1,23 +1,21 @@
 import React from "react";
 import myResume from "../../assets/files/Lindsey_Martin_Resume_2022.pdf";
 import { BsCloudDownload } from "react-icons/bs";
-import { Col, Row } from "react-bootstrap";
+// import { Col, Row } from "react-bootstrap";
 
 function Resume() {
   return (
     <div>
-      <section id="welcome-section" className="intro">
+      <section id="welcome-section" className="download-intro">
         <div className="flex-row">
           <h2 className="section-title primary-border">My Resume</h2>
         </div>
         <div className="flex-row">
-          <div className="intro-info">
-            <div className="intro-img">
-              <a href={myResume} download>
-                Download <BsCloudDownload />
+          <div className="download-info">
+            <div className="download-text">
+              <a href={myResume} className="download-logo" download>
+                <BsCloudDownload />
               </a>
-            </div>
-            <div className="intro-text">
               <p>
                 Please take a minute to review my list of developer
                 proficiencies
@@ -27,7 +25,7 @@ function Resume() {
         </div>
       </section>
       {/* // This is the resume language */}
-      <section id="home-page-body" className="welcome-body">
+      <section id="home-page-body" className="resume-body">
         <div className="article column1">
           {/* <p><img src="./assets/images/streamline-icon-food-delivery-service-ordering@48x48.PNG"></p> */}
           <p className="column-title">Delivery</p>
