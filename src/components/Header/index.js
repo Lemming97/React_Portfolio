@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "../Nav";
-// import coverImage from "../../assets/cover/5330558.jpg";
 
 function Header(props) {
   const { currentTab, handleTabChange } = props;
