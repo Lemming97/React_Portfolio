@@ -404,6 +404,72 @@ header nav ul li a:hover {
 
 /*End Jobs section*/
 
+
+
+
+
+/*Resume section*/
+.welcome-body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.welcome-body>* {
+  flex: 1;
+  margin: 150px;
+}
+
+.column1,
+.column2,
+.column3 {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 30px 0 0 60px;
+}
+
+.column3 {
+  margin-right: 0%;
+}
+
+
+
+.article {
+  margin: 10px;
+  margin-bottom: 1em;
+  background-color: #B4D9CB;
+}
+
+
+.welcome-body img {
+
+  height: auto;
+}
+
+.column-title {
+  color: #285950;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.column-text {
+  color: #285950;
+  font-size: 20px;
+  padding: 5px;
+
+}
+
+
+/*End resume section*/
+
+
+
+
+
 /* start styles to <footer> */
 footer {
   background: #D5F2EA;

@@ -1,22 +1,64 @@
 import React from "react";
+import myResume from "../../assets/files/Lindsey_Martin_Resume_2022.pdf";
+import { BsCloudDownload } from "react-icons/bs";
+import { Col, Row } from "react-bootstrap";
 
 function Resume() {
   return (
     <div>
-      <h1>Resume Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <section id="welcome-section" className="intro">
+        <div className="flex-row">
+          <h2 className="section-title primary-border">My Resume</h2>
+        </div>
+        <div className="flex-row">
+          <div className="intro-info">
+            <div className="intro-img">
+              <a href={myResume} download>
+                Download <BsCloudDownload />
+              </a>
+            </div>
+            <div className="intro-text">
+              <p>
+                Please take a minute to review my list of developer
+                proficiencies
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* // This is the resume language */}
+      <section id="home-page-body" className="welcome-body">
+        <div className="article column1">
+          {/* <p><img src="./assets/images/streamline-icon-food-delivery-service-ordering@48x48.PNG"></p> */}
+          <p className="column-title">Delivery</p>
+          <p className="column-text">
+            You have two options when ordering online. You can order directly
+            from <a href="menu.html">our online menu </a>and pick up your order
+            or you can use Postmates to have your order delivered (Postmates
+            delivery fee extra).
+          </p>
+        </div>
+
+        <div className="article column2">
+          {/* <p><img src="./assets/images/streamline-icon-ai-robot-waiter@48x48.PNG"></p> */}
+
+          <p className="column-title">Catering</p>
+          <p className="column-text">
+            We cater for big and small events and everything in between. You
+            have the option of picking up your order, having it delivered or we
+            can provide full service catering for your special occasion.
+          </p>
+        </div>
+        <div className="article column3">
+          {/* <p><img src="./assets/images/streamline-icon-soft-drinks-glass-ice@48x48.PNG"></p> */}
+          <p className="column-title">Sunday Brunch</p>
+          <p className="column-text">
+            Don't miss a game this season by joining us for our NFL Sunday
+            Brunch! Game Day Brunch Calendar with food and drink specials will
+            be available during the entire NFL football season!
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
