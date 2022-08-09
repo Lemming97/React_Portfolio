@@ -5,6 +5,7 @@ import Contact from "../src/components/Contact";
 import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
 import Footer from "../src/components/Footer";
+import { Helmet } from "react-helmet";
 import "./App.css";
 
 function App() {
@@ -29,13 +30,15 @@ function App() {
 
   return (
     <>
+      <Helmet>
+        <title>Lindsey Martin's Portfolio | {currentTab} </title>
+      </Helmet>
+      ;
       <Header
         currentTab={currentTab}
         handleTabChange={handleTabChange}
       ></Header>
-
       <main>{renderTab()}</main>
-
       <Footer></Footer>
     </>
   );
