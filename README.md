@@ -22,6 +22,10 @@ This project is license under MIT ![Github licence](http://img.shields.io/badge/
 
 ## Installation 
 
+1. Clone the repository from GitHub
+1. Install `node.js`
+1. Run `npm install` to install dependencies. 
+1. Run `npm start` to start the web server and connect
 
 ## User Story
 
@@ -76,4 +80,5 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Usage 
 
-To create a portfolio, using React. 
+To create a portfolio, using React. The user can review and About Me section, a sample Portfolio, a contact form, and be able to download the Resume.
+
