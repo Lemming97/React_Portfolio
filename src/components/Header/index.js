@@ -30,9 +30,9 @@ function Header(props) {
 
           <h2>Welcome</h2>
           <p>
-            Welcome to Lindsey Martin's portfolio page but with React. Here, you
-            can find a small sample of the projects she has worked on over the
-            course of the program.
+            Welcome to Lindsey Martin's portfolio page built with React. Here,
+            you can find a small sample of the projects she has worked on over
+            the course of the program.
           </p>
         </div>
       </section>
