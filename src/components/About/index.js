@@ -14,7 +14,7 @@ function About() {
             <img src={profileImage} style={{ width: "100%" }} alt="profile" />
           </div>
           <p>
-            Hello, my name is Lindsey Martin. I am currently 30 living in Los
+            Hello, my name is Lindsey Martin. I am currently 31 living in Los
             Angeles. I have a B.A. in Psychology with a concentration in
             Neuroscience from the University of San Francisco, and graduated in
             2016. I moved up to San Francisco for college and ended up staying
