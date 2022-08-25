@@ -35,7 +35,7 @@ function Portfolio() {
                 account. The user can receive daily affirmations. The user also
                 has the ability to ask questions to receive an answer. The user
                 also can receive a lucky number if they want. The user can
-                donate money to the website if they want to.{" "}
+                donate money to the website if they want to.
               </p>
             </div>
           </div>
